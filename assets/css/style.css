@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+}
+/*HEADER*/
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #7159c1;
+    display: flex;
+    justify-content: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+
+}
+header nav ul li {
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 70px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #dbdbdb44;
+    transition: 0.5s;
+}
+.logo img {
+    margin-top: 12.5px;
+    padding-right: 10px;
+    width: 45px;
+    border-right: 1px solid #dbdbdb44;
+}
+header nav ul li img {
+    width: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+header nav ul li button {
+    width: 85px;
+    height: 35px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius:5px ;
+    outline: none;
+    cursor: pointer;
+}
+.active, header nav ul li a:hover {
+    color: #fff;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fff;
+}
+/*SECTION*/
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*MEIO*/
+.meio {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.meio .left {
+    flex: 1;
+}
+.meio .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.meio .left h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    color: #4b4b4b;
+    line-height: 35px;
+}
+.meio .left h5 {
+    font-size: 16px;
+    margin: 15px 0px;
+    color: #9a8ebf;
+    font-weight: 500;
+    line-height: 30px;
+}
+.meio .left button {
+    border: none;
+    height: 50px;
+    padding:0px 30px;
+    border-radius: 5px;
+    background-color: #7159c1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.meio .left button:hover {
+    cursor: pointer;
+    background-color: #8c7cc4;
+}
+.art2 {
+    background-color: #7159c1;
+}
+/*MEIO2*/
+.meio2 {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.meio2 .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.meio2 .right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.meio2 .right h1 {
+    font-size: 36px;
+    color: #fff;
+}
+.meio2 .right h3 {
+    font-size: 24px;
+    color: #ddd5f8;
+    padding: 12px 0px;
+}
+.meio2 .right h5 {
+    font-size: 16px;
+    color: #ddd5f8;
+    font-weight: 500;
+    line-height: 30px;
+}
+/*MEIO3*/
+.meio3 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.meio3 .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.meio3 .left .title {
+    display: flex;
+    height: 81px;
+}
+.meio3 .left .title h1{
+    font-size: 36px;
+    line-height: 81px;
+    margin-left: 25px;
+    color: #4b4b4b;
+}
+.meio3 .left .text {
+    color: #9a8ebf;
+    font-size: 18px;
+    font-weight: 100;
+}
+.meio3 .left button {
+    height: 50px;
+    padding: 0px 30px;
+    border: none;
+    background-color: #7159c1;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.meio3 .left button:hover {
+    cursor: pointer;
+    background-color: #8c7cc4;
+}
+.meio3 .right {
+    flex: 1;
+}
+/*SERIA MEIO4*/
+#art3 {
+    background-color: #f1efff;
+}
+/*MEIO5*/
+.meio5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.meio5 h1 {
+    font-size: 36px;
+    color: #4b4b4b;
+}
+.meio5 h5 {
+    color: #9a8ebf;
+    font-size: 18px;
+    font-weight: 100;
+}
+.meio5 .sites {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.meio5 .sites button {
+    height: 60px;
+    width: 370px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #7159c1;
+    color: #fff;
+    font-size: 16px;
+}
+.meio5 .sites button:hover {
+    cursor: pointer;
+    background-color: #8c7cc4;
+}
+/*MEIO6*/
+.art5 {
+    background-color: #7159c1;
+}
+.meio6 {
+    height: 160px;
+    display: flex;
+}
+.meio6 .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.meio6 .center {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+.meio6 .center .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.meio6 .center .cont h1 {
+    font-size: 24px;
+    color: #fff;
+}
+.meio6 .center .cont span {
+    color: #ffffffcc;
+}
+.meio6 .center .cont .caixa-input {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+.meio6 .center .cont .caixa-input input{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+.meio6 .center .cont .caixa-input img {
+    cursor: pointer;
+}
+.meio6 .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.direitos, .direitos strong {
+    font-size: 16px;
+    color: #666666;
+}
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+    margin-left: 10px;
+}
+/*CONFIGURAÇÃO DO RESPONSIVO NO SITE GRANDE*/
+.mm {
+    display: none;
+}
+.mobile {
+    display: none;
+}
+/*RESPONSIVO*/
+@media screen and (max-width: 785px) {
+    header nav ul li {
+        padding: 0px 5px;
+    }
+    .rodape {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .meio .meio2, .meio3, .meio4, .meio5 {
+        margin: 0px 30px;
+    }
+    .meio5 .sites button {
+        width: 300px;
+    }
+    .mobile {
+        width: 100%;
+        background-color: #7159c1e6;
+        position: absolute;
+    }
+    .mobile ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile ul li {
+        padding: 10px 30px;
+    }
+    .mobile ul li a {
+        text-decoration: none;
+        color: #af9ee6;
+        font-size: 16px;
+    }
+    .mobile ul li a:hover , .active {
+        color: #fff;
+    }
+    .active, header nav ul li a:hover {
+        color: #fff;
+        padding-bottom: 4px;
+        border-bottom: none;
+    }
+    .meio6 .right img, .meio6 .left img {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #left {
+        display: none;
+    }
+    header nav ul li {
+        padding: 0px 5px;
+    }
+    .mm {
+        margin-left: 30px;
+        display: flex;
+    }
+    .mm-menu {
+        margin-left: 5px;
+        height: 100%;
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .mm-menu img {
+        width: 40px;
+    }
+    .mm-menu h3 {
+        font-size: 16px;
+        color: #fff;
+    }
+    header nav ul li button {
+        display: none;
+    }
+    .meio {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .meio .right {
+        display: none;
+    }
+    .meio2 {
+        padding: 15px 30px;
+        height: auto;
+    }
+    .meio2 .left {
+        display: none;
+    }
+    .meio2 .right {
+        margin-left: 0px;
+    }
+    .meio3 {
+        flex-direction: column;
+        height: auto;
+        margin: 30px 30px;
+    }
+    .meio3 .left {
+        align-items: center;
+    }
+    .meio3 .left .title {
+        width: 260px;
+        justify-content: space-between;
+    }
+    .meio3 .left .title h1 {
+        margin-left: 0;
+    }
+    .meio3 .left button {
+        margin: 15px;
+    }
+    .meio .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .meio .left h1 {
+        margin-top: 20px;
+    }
+    .meio .left h5 {
+        line-height: normal;
+    }
+    .meio5 .sites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 130px;
+    }
+    .meio6 .left, .meio6 .right, .center img {
+        display: none;
+    }
+    .meio6 .center .cont h1, .meio6 .center .cont span {
+        text-align: center;
+    }
+    .meio6 .center .cont .caixa-input {
+        width: 300px;
+        align-self: center;
+    }
+    footer {
+        height: auto;
+    }
+    .rodape {
+        padding: 15px 30px;
+        text-align: center;
+    }
+    .footer-menu ul {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
